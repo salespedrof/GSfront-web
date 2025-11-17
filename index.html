@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Futuro do Trabalho - Rede Colaborativa</title>
+  <link rel="stylesheet" href="/src/css/style.css" />
+</head>
+<body>
+  <header class="topo">
+    <div class="logo">
+      <span class="logo__marca">Futuro<span>Work</span></span>
+    </div>
+    <nav class="menu">
+      <a href="#hero">Início</a>
+      <a href="#profissionais">Profissionais</a>
+      <a href="#quiz">Quiz</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero__texto">
+        <h1>Conectando pessoas, competências e propósito.</h1>
+        <p>
+          Uma rede profissional voltada ao futuro do trabalho, onde talentos,
+          habilidades e histórias se encontram por meio da tecnologia.
+        </p>
+        <button class="btn-primario" onclick="scrollToSection('profissionais')">
+          Explorar profissionais
+        </button>
+      </div>
+      <div class="hero__info">
+        <h2>O Futuro do Trabalho</h2>
+        <p>
+          Novas formas de trabalhar exigem novas formas de conectar pessoas.
+          Aqui, você explora perfis, habilidades técnicas e comportamentais,
+          experiências reais e trajetórias diversas.
+        </p>
+      </div>
+    </section>
+
+    <section id="profissionais" class="secao">
+      <header class="secao__cabecalho">
+        <h2>Profissionais em Destaque</h2>
+        <p>
+          Navegue pelos perfis, visualize trajetórias e descubra talentos
+          prontos para os desafios do futuro.
+        </p>
+      </header>
+
+      <div id="lista-profissionais" class="cards-container">
+      </div>
+    </section>
+
+    <section id="quiz" class="secao quiz">
+      <header class="secao__cabecalho">
+        <h2>Quiz – Futuro do Trabalho</h2>
+        <p>
+          Teste seus conhecimentos sobre o mercado de trabalho e tendências de tecnologia.
+        </p>
+      </header>
+
+      <div id="quiz-container" class="quiz__container">
+      </div>
+
+      <button id="btn-enviar-quiz" class="btn-primario">Enviar respostas</button>
+      <p id="resultado-quiz" class="quiz__resultado"></p>
+    </section>
+  </main>
+
+  <div id="modal-perfil" class="modal oculto">
+    <div class="modal__conteudo">
+      <button id="modal-fechar" class="modal__fechar">&times;</button>
+
+      <div class="modal__topo">
+        <img id="modal-foto" src="" alt="Foto do profissional" class="modal__foto" />
+        <div>
+          <h3 id="modal-nome"></h3>
+          <p id="modal-cargo" class="modal__cargo"></p>
+          <p id="modal-local"></p>
+        </div>
+      </div>
+
+      <div class="modal__slides">
+        <div id="modal-slide-titulo" class="modal__slide-titulo"></div>
+        <div id="modal-slide-conteudo" class="modal__slide-conteudo"></div>
+      </div>
+
+      <div class="modal__controles">
+        <button id="modal-prev" class="btn-secundario">Anterior</button>
+        <span id="modal-indicador" class="modal__indicador"></span>
+        <button id="modal-next" class="btn-secundario">Próximo</button>
+      </div>
+
+      <div class="modal__acoes">
+        <button class="btn-primario btn-ghost">Recomendar profissional</button>
+        <button class="btn-primario">Enviar mensagem</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="rodape">
+    <p>Projeto acadêmico – Global Solution – Engenharia de Software – 1º semestre</p>
+  </footer>
+
+  <script src="src/js/data.js"></script>
+  <script src="src/js/main.js"></script>
+  <script src="src/js/quiz.js"></script>
+</body>
+</html>
