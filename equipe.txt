@@ -7,3 +7,6 @@ David Ernesto Gama – RM567855
 
 Repositório do projeto:
 https://github.com/salespedrof/GSfront-web.git
+
+Link do site publicado no git pages?
+https://salespedrof.github.io/GSfront-web

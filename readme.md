@@ -56,17 +56,18 @@ O projeto simula uma pequena rede profissional inspirada em plataformas como o L
 
 ```bash
 GS1/
-├── index.html
-├── readme.md
-├── equipe.txt
-├── /css/
-│   └── style.css
-├── /js/
-│   ├── data.js
-│   ├── main.js
-│   └── quiz.js
-└── /img/
-    └── (arquivos de imagem dos perfis)
+├── src/
+    ├── index.html
+    ├── readme.md
+    ├── equipe.txt
+    ├── /css/
+    │   └── style.css
+    ├── /js/
+    │   ├── data.js
+    │   ├── main.js
+    │   └── quiz.js
+    └── /img/
+          └── (arquivos de imagem dos perfis)
 ```
 
 ---

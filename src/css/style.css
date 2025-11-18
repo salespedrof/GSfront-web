@@ -236,17 +236,17 @@ body {
   border: 2px solid rgba(37, 99, 235, 0.7);
 }
 
-.card__cargo {
+.card__cargo:hover {
   font-size: 0.85rem;
   color: var(--cor-texto-sec);
 }
 
-.card__local {
+.card__local:hover {
   font-size: 0.8rem;
   color: var(--cor-texto-sec);
 }
 
-.card__skills {
+.card__skills:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
@@ -281,6 +281,15 @@ body {
 .modal.oculto {
   display: none;
 }
+
+.modal__foto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(37, 99, 235, 0.75);
+}
+
 
 .modal__conteudo {
   width: 100%;
