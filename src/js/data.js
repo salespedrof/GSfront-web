@@ -3,7 +3,7 @@ const profissionais = [
     nome: "Ana Ribeiro",
     cargo: "UX Designer Pleno",
     local: "São Paulo - SP",
-    foto: "img/ana.jpg",
+    foto: "src/img/ana.jpg",
     resumoCurto: "Focada em pesquisa com usuários e prototipação para produtos digitais inclusivos.",
     detalhes: {
       pessoaisAcademicos:
@@ -21,7 +21,7 @@ const profissionais = [
     nome: "Bruno Martins",
     cargo: "Desenvolvedor Front-End",
     local: "Campinas - SP",
-    foto: "img/bruno.jpg",
+    foto: "src/img/bruno.jpg",
     resumoCurto:
       "Desenvolvedor focado em interfaces responsivas e acessíveis para aplicações web.",
     detalhes: {
@@ -40,7 +40,7 @@ const profissionais = [
     nome: "Carla Nogueira",
     cargo: "Analista de Dados Júnior",
     local: "São Paulo - SP",
-    foto: "img/carla.jpg",
+    foto: "src/img/carla.jpg",
     resumoCurto:
       "Apaixonada por transformar dados em decisões para negócios mais eficientes.",
     detalhes: {
@@ -59,7 +59,7 @@ const profissionais = [
     nome: "Diego Lima",
     cargo: "Desenvolvedor Back-End",
     local: "São Bernardo do Campo - SP",
-    foto: "img/diego.jpg",
+    foto: "src/img/diego.jpg",
     resumoCurto:
       "Atua na estrutura que ninguém vê, garantindo performance e segurança das APIs.",
     detalhes: {
@@ -78,7 +78,7 @@ const profissionais = [
     nome: "Eduarda Souza",
     cargo: "Analista de RH Digital",
     local: "Santo André - SP",
-    foto: "img/eduarda.jpg",
+    foto: "src/img/eduarda.jpg",
     resumoCurto:
       "Faz a ponte entre pessoas e tecnologia para recrutamento mais justo e inclusivo.",
     detalhes: {
@@ -97,7 +97,7 @@ const profissionais = [
     nome: "Felipe Andrade",
     cargo: "Product Manager",
     local: "São Paulo - SP",
-    foto: "img/felipe.jpg",
+    foto: "src/img/felipe.jpg",
     resumoCurto:
       "Conecta visão de negócio, tecnologia e experiência do usuário em produtos digitais.",
     detalhes: {
@@ -135,7 +135,7 @@ const profissionais = [
     nome: "Henrique Costa",
     cargo: "DevOps Engineer",
     local: "São Paulo - SP",
-    foto: "img/henrique.jpg",
+    foto: "src/img/henrique.jpg",
     resumoCurto:
       "Trabalha para que times de desenvolvimento entreguem valor de forma contínua e segura.",
     detalhes: {
@@ -154,7 +154,7 @@ const profissionais = [
     nome: "Isabela Rocha",
     cargo: "Scrum Master",
     local: "São Paulo - SP",
-    foto: "img/isabela.jpg",
+    foto: "src/img/isabela.jpg",
     resumoCurto:
       "Ajuda times a trabalharem de forma ágil, com foco em entrega contínua de valor.",
     detalhes: {
@@ -173,7 +173,7 @@ const profissionais = [
     nome: "João Pedro Alves",
     cargo: "Estudante de Engenharia de Software",
     local: "São Paulo - SP",
-    foto: "img/joao.jpg",
+    foto: "src/img/joao.jpg",
     resumoCurto:
       "Em transição para a área de tecnologia, focado em desenvolvimento web full stack.",
     detalhes: {
