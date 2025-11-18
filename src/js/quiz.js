@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
     lista.classList.add("quiz__alternativas");
 
     item.alternativas.forEach((alt, idxAlt) => {
-      const li = document.createElement("li");
+      const li = document.createElement("ul");
 
       const input = document.createElement("input");
       input.type = "radio";
